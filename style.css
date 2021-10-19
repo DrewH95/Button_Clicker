@@ -1,0 +1,110 @@
+* {
+    margin: 1px;
+    padding: 0px;
+}
+.wrapper {
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.nav {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-title {
+    color: black;
+    height: 80px;
+    margin: 30px;
+}
+
+.nav input {
+    margin: 40px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.nav button {
+    background-color: deepskyblue;
+    color: white;
+    box-shadow: black;
+    width: 80px;
+    height: 30px;
+    margin: 40px;
+    box-shadow: 3px 3px 3px black;
+}
+
+/* -- Column 1 -- */
+.mastercolumn {
+    background-color:white;
+    display: flex;
+    /* justify-content: left; */
+    height: 480px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.col1 {
+    background-color: white;
+    height: 300px;
+    width: 395px;
+}
+
+.box1 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-left {
+    background-color: white;
+    display: inline-block;
+    width: 50%;
+}
+
+.box-left button {
+    background-color: rgb(255, 177, 75);
+    color: black;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.box-right {
+    background-color: white;
+    display:inline-block;
+
+}
+
+
+
+/* -- Column 2 -- */
+
+.col2 {
+    background-color: white;
+    border: 2px solid black;
+    height: 150px;
+    width: 250px;
+    margin: 11px;
+}
+
+.definition {
+    background-color:white;
+    display: inline;
+    justify-content: baseline;
+    align-items: center
+}
+
+.definition button {
+    background-color: mediumseagreen;
+    color: black;
+    padding: 10px 24px;
+    box-shadow: 3px 3px 3px black;
+    
+}
